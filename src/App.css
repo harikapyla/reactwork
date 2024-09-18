@@ -1,38 +1,107 @@
-.App {
+*{
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login{
+  justify-content: center;
   text-align: center;
+  background-color: lightblue;
+  margin:70px 300px;
+ margin-bottom:500px;
+ padding: 30px 0px;
+  border-radius: 3px;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login h1{
+  color: black;
+  font-weight: 500;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon1{
+  width:300px;
+  height:3px;
+  background-color:white;
+  color:black;
   display: flex;
-  flex-direction: column;
+  border-radius:30px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 20px;
+  margin-left: 200px;
+}
+.icon1 > h1{
+  font-size: 20px;
+  color:black;
+}
+.icon1 input{
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+p{
+  font-size: 0.8;
+}
+span{
+  color: blue;
+}
+span:hover{
+  color:rgb(45, 142, 21);
+}
+.forgot-password{
+  font-size: 0.6;
+  margin-right: 100px;
+  color: black;
+}
+#btn{
+  padding:7px 22px;
+  background-color: blue;
   color: white;
+  border-style: none;
+  border-radius: 6px;
+}
+#btn:hover{
+  background-color: green;
+}
+lable{
+  font-weight: 600;
+  font-size: 1.2rem;
+ margin-right: 150px;
+}
+.dash{
+  display: flex;
+  gap: 1%;
+}
+.sidenav{
+  position:fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.sidenav img{
+  width:150px;
+  height:100px;
+  border-style: none;
+  border-radius:70%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.di{
+  display: flex;
+}
+li{
+  list-style-type: none;
+}
+.header{
+  position: fixed;
+  display: flex;
+  gap: 30%;
+  background-color: whitesmoke;
+  color: black;
+  width: 100%;
+  text-align: center;
+  padding:20px;
+  
 }
